@@ -1,0 +1,802 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    ;
+}
+
+/* Navbar*/
+nav {
+    position: sticky;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    color: black;
+    top: 0;
+    width: 100%;
+    z-index: 90;
+}
+
+.Logo {
+    display: flex;
+    color: black;
+}
+
+.Logo i {
+    color: red;
+}
+
+.Logo h1 {
+    margin-right: 10px;
+}
+
+.Sosmed {
+    display: flex;
+    align-items: center;
+}
+
+.Sosmed .media i {
+    margin-right: 20px;
+    color: gray
+}
+
+.Sosmed .telp {
+    color: black;
+    margin-right: 80px;
+}
+
+.Sosmed .telp i {
+    color: red;
+    margin-right: 20px;
+}
+
+.Sosmed .media i:hover {
+    color: red;
+}
+
+.cari {
+    margin-right: -45px;
+    padding: 30px;
+    background-color: red;
+}
+
+.cari i {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin-right: 15px;
+    list-style: none;
+    background: white;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #1dd1a1;
+}
+
+nav ul li ul li {
+    background: white;
+    width: 170px;
+    padding-top: 10px;
+}
+
+/* Content 1 */
+.container1 {
+    background-image: url(https://images.abercrombiekent.com.au/images/classic-japan-2021-hero-3.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.container1 .kata {
+    margin: auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.container1 .kata h3 {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.container1 .kata p {
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 4px;
+}
+
+.container1 .kata a {
+    width: 300px;
+    background: #1dd1a1;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.container1 .kata a:hover {
+    background-color: #ee5253;
+}
+
+/* Content 2 */
+.wtg {
+    width: 100%;
+    background-color: grey;
+    color: white;
+    margin-top: 1px;
+}
+
+.wtg .text {
+    margin: auto;
+    padding: 50px 250px;
+    text-align: center;
+}
+
+.wtg .text h3 {
+    text-align: center;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.wtg .text input {
+    background-color: transparent;
+    width: 150px;
+    height: 30px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.wtg .text select {
+    background-color: transparent;
+    width: 150px;
+    height: 35px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.wtg .text button {
+    width: 100px;
+    height: 37px;
+    background: #ee5253;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+}
+
+.wtg .text button:hover {
+    background-color: #1dd1a1;
+}
+
+/* Content 3 */
+.container2 {
+    width: auto;
+    background-color: white;
+    color: black;
+    padding: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.container2 h1 {
+    margin-bottom: 20px;
+}
+
+.container2 p {
+    margin-bottom: 20px;
+}
+
+/* Container 3 */
+.container3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 40px;
+    column-gap: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.container3 .gambar {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    margin: auto;
+    transition-duration: 1s;
+}
+
+.gambar:hover {
+    width: 400px;
+    height: 300px;
+    transition-duration: 0.5s;
+}
+
+.container3 .gambar img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.container3 .destinasi {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-items: center;
+}
+
+.container3 .destinasi h3 {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.container3 .destinasi:hover h3 {
+    color: #ee5253;
+}
+
+.container3 .destinasi p {
+    font-weight: bolder;
+    font-size: 10px;
+    padding: 10px;
+    background-color: #1dd1a1;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.container3 .destinasi:hover p {
+    background-color: #ee5253;
+}
+
+.container5 {
+    width: 100%;
+    background-image: url(https://wallpapersmug.com/download/3840x2160/3918f5/beach-calm-sea-waves-aerial-view.jpg);
+    color: white;
+    margin-top: 200px;
+    padding: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.container5 .text1 {
+    margin: auto;
+    text-align: center;
+}
+
+.container5 .text1 input {
+    background-color: white;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container5 p {
+    color: white;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container5 .text1 button {
+    width: 100px;
+    height: 37px;
+    background: #ee5253;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container5 h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.container6 {
+    width: auto;
+    background-color: white;
+    color: black;
+    padding: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.container6 h1 {
+    margin-bottom: 20px;
+}
+
+.container6 p {
+    display: flex;
+    color: gray;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container7 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 40px;
+    column-gap: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.container7 .filter {
+    height: 300px;
+    width: 250px;
+    background-color: aliceblue;
+    margin-top: 50px;
+
+}
+
+.container7 .filter .opt1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container7 .filter .opt1 select {
+    background-color: transparent;
+    width: 200px;
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.container7 .filter .opt2 {
+    margin-top: 15px;
+}
+
+.container7 .box3 {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    margin: auto;
+    transition-duration: 1s;
+}
+
+.container7 .box3 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.container7 .text2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-items: center;
+}
+
+.container7 .text2 p {
+    font-weight: bolder;
+    font-size: 10px;
+    padding: 10px;
+    background-color: #1dd1a1;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 200px;
+}
+
+.container7 .text2:hover p {
+    background-color: #ee5253;
+}
+
+.container7 button {
+    width: 140px;
+    height: 60px;
+    background: #ee5253;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.button1 button {
+    width: 140px;
+    height: 50px;
+    background: #ee5253;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container9 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 40px;
+    column-gap: 50px;
+    margin-top: 150px;
+    justify-content: center;
+}
+
+.container9 .gambar1 {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    margin: auto;
+}
+
+.container9 .gambar1 img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    filter: brightness(70%);
+    margin-left: 135px;
+}
+
+.container9 .text4 h3 {
+    padding: 10px;
+    margin-top: 100px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container9 .text4 p {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container10 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 40px;
+    column-gap: 50px;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+
+.container10 .gambar2 {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    margin: auto;
+}
+
+.container10 .gambar2 img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    filter: brightness(70%);
+    margin-left: 135px;
+}
+
+.container10 .text5 p {
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 100px;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container10 .text5 h3 {
+    text-align: center;
+}
+
+.Recent {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.container11 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 40px;
+    column-gap: 50px;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container11 .gambar3 {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    margin: auto;
+}
+
+.container11 .gambar3 img {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    filter: brightness(70%);
+    margin-left: 50px;
+}
+
+.container11 .text6 p {
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 210px;
+    margin-left: 25px;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container11 .text6 h3 {
+    text-align: center;
+    margin-left: 25px;
+}
+
+.container11 :hover h3 {
+    color: #ee5253;
+}
+
+footer {
+    width: 100%;
+    background-color: #040e27;
+    position: static;
+    margin-top: 30px;
+}
+
+.container12 {
+    width: 100%;
+    height: 285px;
+    border-bottom: 0.2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container12 .travelo .Logo h1 {
+    color: white;
+}
+
+footer .container12 .travelo {
+    width: 200px;
+    height: 100px;
+    float: left;
+    position: relative;
+    margin-right: 80px;
+}
+
+footer .container12 .travelo img {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+footer .container12 .travelo p {
+    font-size: 10px;
+    color: #aab1b7;
+    margin-bottom: 7px;
+}
+
+footer .container12 .travelo .bawah p {
+    font-size: 10px;
+    color: #aab1b7;
+    margin-bottom: 7px;
+}
+
+footer .container12 .travelo .bawah p:hover {
+    color: red;
+    cursor: pointer;
+}
+
+footer .container12 .travelo .media {
+    display: flex;
+    align-items: center;
+}
+
+footer .container12 .travelo .media i {
+    margin-right: 5px;
+    color: #aab1b7;
+    padding-right: 15px;
+    margin-top: 35px;
+}
+
+footer .container12 .travelo .media i:hover {
+    color: red;
+    cursor: pointer;
+}
+
+footer .container12 .company {
+    width: 100px;
+    height: 100px;
+    float: left;
+    position: relative;
+    margin-right: 50px;
+}
+
+footer .container12 .company .text p {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+footer .container12 .company .text1 p {
+    font-size: 10px;
+    color: #aab1b7;
+    margin-bottom: 15px;
+}
+
+footer .container12 .company .text1 p:hover {
+    color: red;
+    cursor: pointer;
+}
+
+footer .container12 .pd {
+    width: 230px;
+    height: 100px;
+    float: left;
+    position: relative;
+    margin-right: 50px;
+}
+
+footer .container12 .pd .text p {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+footer .pd .text1 .pdkiri {
+    width: 100px;
+    height: 100px;
+    float: left;
+    position: relative;
+    margin-right: -10px;
+}
+
+footer .pd .text1 .pdkanan {
+    width: 100px;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+
+footer .pd .text1 .pdkiri p {
+    font-size: 10px;
+    color: #aab1b7;
+    margin-bottom: 15px;
+}
+
+footer .pd .text1 .pdkanan p {
+    font-size: 10px;
+    color: #aab1b7;
+    margin-bottom: 15px;
+}
+
+footer .pd .text1 .pdkiri p:hover {
+    color: red;
+    cursor: pointer;
+}
+
+footer .pd .text1 .pdkanan p:hover {
+    color: red;
+    cursor: pointer;
+}
+
+footer .container12 .ig {
+    width: 230px;
+    height: 100px;
+    float: left;
+    position: relative;
+    margin-left: -70px;
+}
+
+footer .container12 .ig .text p {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+footer .container12 .ig .galeri {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    margin: 5px;
+    position: relative;
+    justify-content: center;
+    float: left;
+}
+
+footer .container12 .ig .galeri .foto {
+    width: auto;
+    height: auto;
+    float: left;
+    position: relative;
+    justify-content: center;
+}
+
+footer .container12 .ig .galeri .foto img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+footer .copyright p {
+    text-align: center;
+    font-size: 10px;
+    color: #aab1b7;
+}
+
+footer .copyright a {
+    color: red;
+    text-decoration: none;
+}

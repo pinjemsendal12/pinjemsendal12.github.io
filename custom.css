@@ -1,0 +1,581 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;;
+}
+
+/* Navbar*/
+nav {
+    position: sticky;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    color: black;
+    top: 0;
+    width: 100%;
+    z-index: 90;
+}
+
+.Logo {
+    display: flex;
+    color: black;
+}
+
+.Logo i {
+    color: red;
+}
+
+.Logo h1 {
+    margin-right: 10px;
+}
+
+.Sosmed {
+    display: flex;
+    align-items: center;
+}
+
+.Sosmed .media i {
+    margin-right: 20px;
+    color : gray
+}
+
+.Sosmed .telp {
+    color: black;
+    margin-right: 80px;
+}
+
+.Sosmed .telp i {
+    color: red;
+    margin-right: 20px;
+}
+
+.Sosmed .media i:hover {
+    color: red;
+}
+
+.cari {
+    margin-right: -45px;
+    padding: 30px;
+    background-color: red;
+}
+
+.cari i { 
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin-right: 15px;
+    list-style: none;
+    background: white;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #1dd1a1;
+}
+
+nav ul li ul li {
+    background: white;
+    width: 170px;
+    padding-top: 10px;
+}
+
+/* Content 1 */
+.container1 {
+    background-image: url(https://images.abercrombiekent.com.au/images/classic-japan-2021-hero-3.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.container1 .kata {
+    margin: auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.container1 .kata h3 {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.container1 .kata p {
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 4px;
+}
+
+.container1 .kata a {
+    width: 300px;
+    background: #1dd1a1;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.container1 .kata a:hover {
+    background-color:  #ee5253;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.b-container {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 120px;
+}
+
+.b-content-wrap {
+    flex-basis: 65%;
+}
+
+.page {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 150px;
+}
+.page a{
+    margin: 20px;
+    color: gray;
+}
+.page a:hover {
+    color: red;
+}
+aside {
+    flex-basis: 35%;
+    padding-left: 70px;
+}
+
+article img {
+    width: 100%;
+    height: 400px;
+}
+article {
+    position: relative;
+}
+article .date {
+    background-color: red;
+    font-family: 'Inter Tight', sans-serif;
+    padding: 10px;
+    width: 90px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 47%;
+    left: 5%;
+    transition: .5 ease;
+}
+
+article .date:hover{
+    background-color: transparent;
+    color: red;
+}
+article .desc h3 {
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 25px;
+    transition: .5s ease;
+    margin-top: 50px;
+}
+article .desc a h3:hover {
+    color: red;
+}
+article .desc p{
+    color: gray;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+article .desc {
+    padding: 30px 50px 90px 50px;
+}
+
+article .desc a {
+    color: gray;
+    font-size: 12px;
+    transition: .5s ease;
+}
+
+article .desc a:hover {
+    color: red;
+}
+
+article .desc i {
+    margin-right: 5px;
+}
+
+aside {
+    padding-top: 30px;
+}
+
+aside input {
+    width: 310px;
+    height: 40px;
+}
+
+aside button {
+    background-color: mediumaquamarine;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .5s ease;
+    width: 310px;
+    height: 40px;
+    margin-top: 10px;  
+}
+aside button:hover {
+    background-color: red;
+}
+
+aside ul {
+    background-color: whitesmoke;
+}
+
+aside ul li {
+    list-style: none;
+    padding: 12px 0;
+}
+aside ul li a {
+    transition: .5s ease;
+    font-weight: bold;
+}
+aside ul li a:hover {
+    color: red;
+}
+aside a, p {
+    color: gray;
+}
+
+aside h3 {
+    color: black;
+    margin-bottom: 30px;
+    font-size: 25px;
+    margin-top: 70px;
+}
+
+aside form input{
+    border: 1px solid lightgrey;
+}
+
+aside form button {
+    padding: 13px;
+    border: 1px solid lightgrey;
+    margin-left: -14px;
+    cursor: pointer;
+}
+
+.recent-post{
+    background-color: whitesmoke;
+}
+
+.rp-item {
+    height: 78px;
+    margin: 20px 0;
+}
+
+.rp-item .rp-text {
+    padding: 15px;
+}
+.rp-item .rp-text a h4{
+    transition: .5s ease;
+}
+.rp-item .rp-text a h4:hover {
+    color: red;
+}
+
+.rp-item h4 {
+    color: black;
+}
+.rp-item p {
+    color: gray;
+}
+.recent-post .rp-item img{
+    float: left;
+    margin-right: 20px;
+}
+
+.tag {
+    background-color: whitesmoke;
+}
+
+.tag-box ul{
+    display: inline-block;
+}
+.tag-box ul li {
+    float: left;
+}
+.tag-box ul li a{
+    padding: 13px;
+    float: left;
+    font-size: 12px;
+}
+
+.tag-box ul li a:hover {
+    background-color: red;
+    color: white;
+}
+
+.newsletter {
+    background-color: whitesmoke;
+}
+
+.newsletter input {
+    width: 310px;
+    height: 30px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+}
+.newsletter button {
+    background-color: mediumaquamarine;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .5s ease;
+    width: 310px;
+    height: 40px;
+    margin: auto;
+}
+.newsletter button:hover {
+    background-color: red;
+}
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    width: 100%;
+    background-color: #040e27;
+    position: static;
+    margin-top: 30px;
+}
+
+.container12 {
+    width: 100%;
+    height: 285px;
+    border-bottom: 0.2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container12 .travelo .Logo h1 {
+    color: white;
+}
+
+footer .container12 .travelo {
+    width: 200px;
+    height: 100px;
+    float: left;
+    position: relative;
+    margin-right: 80px;
+}
+
+footer .container12 .travelo img {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+footer .container12 .travelo p {
+    font-size: 10px;
+    color: #aab1b7;
+    margin-bottom: 7px;
+}
+
+footer .container12 .travelo .bawah p {
+    font-size: 10px;
+    color: #aab1b7;
+    margin-bottom: 7px;
+}
+
+footer .container12 .travelo .bawah p:hover {
+    color: red;
+    cursor: pointer;
+}
+
+footer .container12 .travelo .media {
+    display: flex;
+    align-items: center;
+}
+
+footer .container12 .travelo .media i {
+    margin-right: 5px;
+    color: #aab1b7;
+    padding-right: 15px;
+    margin-top: 35px;
+}
+
+footer .container12 .travelo .media i:hover {
+    color: red;
+    cursor: pointer;
+}
+
+footer .container12 .company {
+    width: 100px;
+    height: 100px;
+    float: left;
+    position: relative;
+    margin-right: 50px;
+}
+
+footer .container12 .company .text p {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+footer .container12 .company .text1 p {
+    font-size: 10px;
+    color: #aab1b7;
+    margin-bottom: 15px;
+}
+
+footer .container12 .company .text1 p:hover {
+    color: red;
+    cursor: pointer;
+}
+
+footer .container12 .pd {
+    width: 230px;
+    height: 100px;
+    float: left;
+    position: relative;
+    margin-right: 50px;
+}
+
+footer .container12 .pd .text p {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+footer .pd .text1 .pdkiri {
+    width: 100px;
+    height: 100px;
+    float: left;
+    position: relative;
+    margin-right: -10px;
+}
+
+footer .pd .text1 .pdkanan {
+    width: 100px;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+
+footer .pd .text1 .pdkiri p {
+    font-size: 10px;
+    color: #aab1b7;
+    margin-bottom: 15px;
+}
+
+footer .pd .text1 .pdkanan p {
+    font-size: 10px;
+    color: #aab1b7;
+    margin-bottom: 15px;
+}
+
+footer .pd .text1 .pdkiri p:hover {
+    color: red;
+    cursor: pointer;
+}
+
+footer .pd .text1 .pdkanan p:hover {
+    color: red;
+    cursor: pointer;
+}
+
+footer .container12 .ig {
+    width: 230px;
+    height: 100px;
+    float: left;
+    position: relative;
+    margin-left: -70px;
+}
+
+footer .container12 .ig .text p {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+footer .container12 .ig .galeri {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    margin: 5px;
+    position: relative;
+    justify-content: center;
+    float: left;
+}
+
+footer .container12 .ig .galeri .foto {
+    width: auto;
+    height: auto;
+    float: left;
+    position: relative;
+    justify-content: center;
+}
+
+footer .container12 .ig .galeri .foto img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+footer .copyright p {
+    text-align: center;
+    font-size: 10px;
+    color: #aab1b7;
+}
+
+footer .copyright a {
+    color: red;
+    text-decoration: none;
+}

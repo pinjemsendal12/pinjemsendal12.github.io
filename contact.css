@@ -1,0 +1,445 @@
+@import url(https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1260px;
+    margin: auto;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+/* Navbar*/
+nav {
+    position: sticky;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    color: black;
+    top: 0;
+    width: 100%;
+}
+
+.Logo {
+    display: flex;
+    color: black;
+}
+
+.Logo i {
+    color: red;
+}
+
+.Logo h1 {
+    margin-right: 10px;
+}
+
+.Sosmed {
+    display: flex;
+    align-items: center;
+}
+
+.Sosmed .media i {
+    margin-right: 20px;
+    color: gray
+}
+
+.Sosmed .telp {
+    color: black;
+    margin-right: 80px;
+}
+
+.Sosmed .telp i {
+    color: red;
+    margin-right: 20px;
+}
+
+.Sosmed .media i:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.cari {
+    margin-right: -19px;
+    padding: 30px;
+    background-color: red;
+}
+
+.cari i {
+    color: white;
+}
+
+.cari:hover {
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin-right: 15px;
+    list-style: none;
+    background: white;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #00cec9;
+}
+
+nav ul li ul li {
+    background: white;
+    width: 170px;
+    padding: 20px 0 5px 10px;
+    line-height: 30px;
+}
+
+.container1 {
+    background-image: url(https://images.abercrombiekent.com.au/images/classic-japan-2021-hero-3.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+
+.container1 .kata {
+    margin: auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.container1 .kata h3 {
+    font-size: 100px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.container1 .kata p {
+    margin-bottom: 40px;
+    font-size: 15px;
+    margin-left: 4px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kiri {
+    width: 670px;
+    float: left;
+    margin-left: 180px;
+    margin-bottom: 50px;
+}
+
+.kiri h2 {
+    margin-bottom: 15px;
+}
+
+.kiri .kiriatas input {
+    width: 550px;
+    height: 150px;
+    text-align: left;
+    padding-left: 15px;
+    margin-bottom: 50px;
+    border-color: #dfe4ea;
+    border-width: 0.1px;
+    font-size: 12px;
+    font-family: "Rubik", sans-serif;
+}
+
+.kiri .kirikiri input {
+    width: 250px;
+    height: 35px;
+    text-align: left;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    border-color: #dfe4ea;
+    border-width: 0.1px;
+    position: absolute;
+    font-size: 12px;
+    font-family: "Rubik", sans-serif;
+}
+
+.kiri .kirikanan input {
+    width: 250px;
+    height: 35px;
+    text-align: left;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    border-color: #dfe4ea;
+    border-width: 0.1px;
+    position: relative;
+    font-size: 12px;
+    font-family: "Rubik", sans-serif;
+}
+
+.kiri .kiribawah input {
+    width: 550px;
+    height: 35px;
+    text-align: left;
+    padding-left: 15px;
+    margin-bottom: 40px;
+    border-color: #dfe4ea;
+    border-width: 0.1px;
+    font-size: 12px;
+    font-family: "Rubik", sans-serif;
+}
+
+.kiri button {
+    width: 100px;
+    height: 40px;
+    background: #38ada9;
+    text-decoration: none;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Rubik", sans-serif;
+}
+
+.kiri button:hover {
+    background-color: #ee5253;
+    cursor: pointer;
+}
+
+.kanan {
+    margin-top: 50px;
+}
+
+.kanan h5 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.kanan p {
+    font-size: 15px;
+    color: grey;
+}
+
+footer {
+    width: 100%;
+    background-color: #040e27;
+    position: static;
+    margin-top: 30px;
+}
+
+.container12 {
+    width: 100%;
+    height: 285px;
+    border-bottom: 0.2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container12 .travelo .Logo h1 {
+    color: white;
+}
+
+footer .container12 .travelo {
+    width: 200px;
+    height: 100px;
+    float: left;
+    position: relative;
+    margin-right: 80px;
+}
+
+footer .container12 .travelo img {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+footer .container12 .travelo p {
+    font-size: 10px;
+    color: #aab1b7;
+    margin-bottom: 7px;
+}
+
+footer .container12 .travelo .bawah p {
+    font-size: 10px;
+    color: #aab1b7;
+    margin-bottom: 7px;
+}
+
+footer .container12 .travelo .bawah p:hover {
+    color: red;
+    cursor: pointer;
+}
+
+footer .container12 .travelo .media {
+    display: flex;
+    align-items: center;
+}
+
+footer .container12 .travelo .media i {
+    margin-right: 5px;
+    color: #aab1b7;
+    padding-right: 15px;
+    margin-top: 35px;
+}
+
+footer .container12 .travelo .media i:hover {
+    color: red;
+    cursor: pointer;
+}
+
+footer .container12 .company {
+    width: 100px;
+    height: 100px;
+    float: left;
+    position: relative;
+    margin-right: 50px;
+}
+
+footer .container12 .company .text p {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+footer .container12 .company .text1 p {
+    font-size: 10px;
+    color: #aab1b7;
+    margin-bottom: 15px;
+}
+
+footer .container12 .company .text1 p:hover {
+    color: red;
+    cursor: pointer;
+}
+
+footer .container12 .pd {
+    width: 230px;
+    height: 100px;
+    float: left;
+    position: relative;
+    margin-right: 50px;
+}
+
+footer .container12 .pd .text p {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+footer .pd .text1 .pdkiri {
+    width: 100px;
+    height: 100px;
+    float: left;
+    position: relative;
+    margin-right: -10px;
+}
+
+footer .pd .text1 .pdkanan {
+    width: 100px;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+
+footer .pd .text1 .pdkiri p {
+    font-size: 10px;
+    color: #aab1b7;
+    margin-bottom: 15px;
+}
+
+footer .pd .text1 .pdkanan p {
+    font-size: 10px;
+    color: #aab1b7;
+    margin-bottom: 15px;
+}
+
+footer .pd .text1 .pdkiri p:hover {
+    color: red;
+    cursor: pointer;
+}
+
+footer .pd .text1 .pdkanan p:hover {
+    color: red;
+    cursor: pointer;
+}
+
+footer .container12 .ig {
+    width: 230px;
+    height: 100px;
+    float: left;
+    position: relative;
+    margin-left: -70px;
+}
+
+footer .container12 .ig .text p {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+footer .container12 .ig .galeri {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    margin: 5px;
+    position: relative;
+    justify-content: center;
+    float: left;
+}
+
+footer .container12 .ig .galeri .foto {
+    width: auto;
+    height: auto;
+    float: left;
+    position: relative;
+    justify-content: center;
+}
+
+footer .container12 .ig .galeri .foto img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+footer .copyright p {
+    text-align: center;
+    font-size: 10px;
+    color: #aab1b7;
+}
+
+footer .copyright a {
+    color: red;
+    text-decoration: none;
+}
